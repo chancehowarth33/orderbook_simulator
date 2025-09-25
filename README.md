@@ -1,4 +1,4 @@
-# 🏦 Simple Limit Order Book in C++  
+# Simple Limit Order Book in C++  
 
 This project implements a **limit order book and matching engine** in modern C++. It simulates how financial exchanges (NASDAQ, CME, crypto exchanges, etc.) manage and match buy/sell orders in real-time.  
 
@@ -16,6 +16,15 @@ It’s designed as a learning tool for **systems programming, finance, and high-
 - Easy to extend for **market orders, logging, or latency benchmarks**  
 
 ---
+
+## ⚙️ Build Instructions  
+
+```bash
+# clone the repo and compile the code with c++17 or later
+g++ -O2 -std=c++17 -Wall -Wextra -o order_book order_book.cpp
+
+# run the repl
+./order_book
 
 ## 📖 Example Session  
 
@@ -51,10 +60,3 @@ PRINT
 ==================================
 
 
-## ⚙️ Build Instructions  
-
-Clone this repo and compile the code with a C++17 (or later) compiler:  
-
-```bash
-g++ -O2 -std=c++17 -Wall -Wextra -o order_book order_book.cpp
-./order_book
