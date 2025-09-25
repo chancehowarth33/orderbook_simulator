@@ -26,6 +26,8 @@ g++ -O2 -std=c++17 -Wall -Wextra -o order_book order_book.cpp
 # run the repl
 ./order_book
 
+```bash
+
 ## 📖 Example Session  
 
 ```bash
