@@ -17,7 +17,7 @@ It’s designed as a learning tool for **systems programming, finance, and high-
 
 ---
 
-## ⚙️ Build Instructions  
+## Build Instructions  
 
 ```bash
 # clone the repo and compile the code with c++17 or later
@@ -26,9 +26,20 @@ g++ -O2 -std=c++17 -Wall -Wextra -o order_book order_book.cpp
 # run the repl
 ./order_book
 
-```bash
+```
 
-## 📖 Example Session  
+## Commands 
+```
+BUY price qty     # submit a buy order
+SELL price qty    # submit a sell order
+CANCEL id         # cancel a previously submitted order
+PRINT             # print the full order book (top 5 levels by default)
+TOP               # print only best bid and best ask
+QUIT              # exit the program
+```
+
+
+## Example Session  
 
 ```bash
 $ ./order_book
