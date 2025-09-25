@@ -49,3 +49,12 @@ PRINT
        101  |  qty=10 (orders=1)
        100  |  qty=50 (orders=1)
 ==================================
+
+
+## ⚙️ Build Instructions  
+
+Clone this repo and compile the code with a C++17 (or later) compiler:  
+
+```bash
+g++ -O2 -std=c++17 -Wall -Wextra -o order_book order_book.cpp
+./order_book
