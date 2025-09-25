@@ -6,7 +6,7 @@ It’s designed as a learning tool for **systems programming, finance, and high-
 
 ---
 
-## ✨ Features  
+## Features  
 - **Buy/Sell limit orders** with unique IDs  
 - **Order matching** at the resting order’s price  
 - **Partial fills** with leftover quantity resting in the book  
